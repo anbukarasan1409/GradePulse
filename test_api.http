@@ -1,0 +1,16 @@
+### Test student prediction
+POST http://127.0.0.1:5000/predict
+Content-Type: application/json
+
+{
+    "G1": 10,
+    "G2": 12,
+    "absences": 2,
+    "studytime": 3,
+    "failures": 0,
+    "age": 17,
+    "schoolsup": "no",
+    "activities": "yes",
+    "internet": "yes",
+    "higher": "yes"
+}
